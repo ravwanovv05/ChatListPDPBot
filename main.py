@@ -5,7 +5,6 @@ import sys
 from aiogram import Dispatcher, Bot
 from aiogram.filters import Command
 from dotenv import load_dotenv
-
 from bot.handlers.chat_handlers import chats_handler
 from bot.handlers.feedback_handlers import feedback_handler, get_feedback_handler
 from bot.handlers.main_handlers import start_handler, fullname_handler
